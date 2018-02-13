@@ -1,0 +1,5 @@
+# Example cron entries
+# m h  dom mon dow   command
+*/2 * * * * cd /code/PingGraph && ./collect.sh
+5 0 * * * cd /code/PingGraph && ./daily.sh
+
